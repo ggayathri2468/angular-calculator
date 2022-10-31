@@ -17,9 +17,42 @@ height:100%
 .calc{
 display:flex;
 background: #282828;
-width:50%;
-height:700px;
+width:30%;
+height:100vh;
 color: $white;
-transform: translate(50%,0%);
-align-items: center;
+transform: translate(60%,0%);
+justify-content: center;
+.inp{
+    
+    margin-top: 200px;
+    background-color: #282828;
+ width: 450px;
+ height: 50px;
+ border-radius: 10px;
+    //border: 0;
+    // padding-top: 10px;
+    // padding-left: 600px;
+    // //padding-right: 100%;
+}
+
+}
+.firstrow,.secondrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    .plus input{
+        padding:30px;
+       // position: relative;
+        border-radius: 50%;
+    }
+}
+
+.secondrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+   button{
+
+       padding: 25px 52px 25px 52px;
+   }
 }
