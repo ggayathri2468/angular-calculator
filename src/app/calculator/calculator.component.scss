@@ -1,6 +1,8 @@
-
+*{
+    font-size: 20px;
+}
 $red:#Ec293A;
-$black:#282828;
+$black:#5a6b77;
 $white:#fffefc;
 :host{
     height: 100%;
@@ -11,24 +13,32 @@ background-color: $white;
 height:100%
 }
 // .whole{
-//     height: 100%;
+//     height:100%;
 // }
-
+.fifthrow{
+    .ac{
+    
+    }
+}
 .calc{
 display:flex;
-background: #282828;
-width:30%;
+background:$black;
+width:25%;
+border-radius: 10px;
+//padding: 40px;
 height:100vh;
 color: $white;
 transform: translate(60%,0%);
 justify-content: center;
 .inp{
-    
+    font-size: 28px;
+    font-weight: bold;
     margin-top: 200px;
-    background-color: #282828;
- width: 450px;
- height: 50px;
- border-radius: 10px;
+    background-color:$black;
+    width: 370px;
+    color:$white;
+    height: 50px;
+    border-radius: 10px;
     //border: 0;
     // padding-top: 10px;
     // padding-left: 600px;
@@ -36,23 +46,36 @@ justify-content: center;
 }
 
 }
-.firstrow,.secondrow{
+.firstrow,.secondrow,.thirdrow,.fourthrow,.fifthrow,.seventhrow{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     .plus input{
+        background-color: #899dae;
         padding:30px;
        // position: relative;
         border-radius: 50%;
     }
 }
 
-.secondrow {
+.secondrow,.thirdrow,.fourthrow,.fifthrow {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
    button{
 
-       padding: 25px 52px 25px 52px;
+       padding: 25px 22px 25px 22px;
    }
+}
+.calculator{
+    //padding: 40px;
+}
+.seventhrow{
+
+    .eql{
+        width: 300px;
+        height: 60px;
+        
+        
+    }
 }
