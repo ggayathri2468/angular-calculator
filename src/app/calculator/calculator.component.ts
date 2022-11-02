@@ -20,13 +20,13 @@ export class CalculatorComponent implements OnInit {
     this.CurrentValue = '';
     this.Input = '0';
   }
-  del() {
-    this.CurrentValue = this.CurrentValue.slice(0, -1);
-    this.Input = this.CurrentValue;
-    if (this.Input == '') {
-      this.Input = '0';
-    }
-  }
+  // del() {
+  //   this.CurrentValue = this.CurrentValue.slice(0, -1);
+  //   this.Input = this.CurrentValue;
+  //   if (this.Input == '') {
+  //     this.Input = '0';
+  //   }
+  // }
   constructor() {}
   ngOnInit(): void {}
 }

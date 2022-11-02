@@ -1,0 +1,49 @@
+<div class="all">
+  <div class="whole">
+    <div class="calc">
+      <div class="calculator">
+        <div class="input">
+          <input type="text" placeholder="0" class="inp" [(ngModel)]="Input" />
+        </div>
+        <div class="firstrow">
+          <div class="plus">
+            <input type="button" value=" +" (click)="EnteredNumber('+')" />
+          </div>
+          <div class="plus">
+            <input type="button" value="-" (click)="EnteredNumber('-')" />
+          </div>
+          <div class="plus">
+            <input type="button" value="*" (click)="EnteredNumber('*')" />
+          </div>
+          <div class="plus">
+            <input type="button" value="/" (click)="EnteredNumber('/')" />
+          </div>
+        </div>
+        <div class="secondrow">
+          <div class="num"><button (click)="EnteredNumber('1')">1</button></div>
+          <div class="num"><button (click)="EnteredNumber('2')">2</button></div>
+          <div class="num"><button (click)="EnteredNumber('3')">3</button></div>
+        </div>
+        <div class="thirdrow">
+          <div class="num"><button (click)="EnteredNumber('4')">4</button></div>
+          <div class="num"><button (click)="EnteredNumber('5')">5</button></div>
+          <div class="num"><button (click)="EnteredNumber('6')">6</button></div>
+        </div>
+        <div class="fourthrow">
+          <div class="num"><button (click)="EnteredNumber('7')">7</button></div>
+          <div class="num"><button (click)="EnteredNumber('8')">8</button></div>
+          <div class="num"><button (click)="EnteredNumber('9')">9</button></div>
+        </div>
+        <div class="fifthrow">
+          <div class="num"><button (click)="EnteredNumber('0')">0</button></div>
+          <div class="num"><button (click)="EnteredNumber('.')">.</button></div>
+          <div class="ac"><button (click)="cancle()">c</button></div>
+        </div>
+        <div class="seventhrow">
+          <div><button class="eql" (click)="equal()">=</button></div>
+        </div>
+      </div>
+      <div class="div"></div>
+    </div>
+  </div>
+</div>
